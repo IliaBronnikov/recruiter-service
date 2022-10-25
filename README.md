@@ -24,4 +24,9 @@ docker-compose up
   ```
   curl --request GET 'http://127.0.0.1:8000/profiles/vacancies/{vacancy_id}'
   ```
+  
+  ### Дальнейшие фичи
+- Добавление стандартных статусов при поднятие проекта
+- Добавление тестов
+
 
