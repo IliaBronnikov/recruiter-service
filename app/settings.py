@@ -1,7 +1,7 @@
 from functools import lru_cache
-from typing import Any, Dict, Optional
+from typing import Optional
 
-from pydantic import BaseSettings, PostgresDsn, conint, validator
+from pydantic import BaseSettings, PostgresDsn
 
 
 class AppSettings(BaseSettings):
