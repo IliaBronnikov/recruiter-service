@@ -1,8 +1,5 @@
-from datetime import datetime
-
-from sqlalchemy import Column, ForeignKey, Integer, String, Table, UniqueConstraint
+from sqlalchemy import Column,Integer
 from sqlalchemy.ext.declarative import as_declarative
-from sqlalchemy.orm import relationship
 
 
 @as_declarative()
