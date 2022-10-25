@@ -9,9 +9,7 @@ ENV PYTHONDONTWRITEBYTECODE 1 \
 
 
 COPY requirements.txt /code
-#COPY ["requirements.txt", "requirements-dev.txt"] ./code
 
-#RUN pip install -r requirements.txt && rm -rf /root/.cache/pip
 RUN pip install  -r requirements.txt && rm -rf /root/.cache/pip
 
 COPY . /code
